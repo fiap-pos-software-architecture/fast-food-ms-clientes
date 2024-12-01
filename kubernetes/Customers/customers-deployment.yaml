@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customers
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: customers
+  template:
+    metadata:
+      labels:
+        app: customers
+    spec:
+      containers:
+      - name: customers
+        image: jennyffernm/app-node-18:latest
+        ports:
+        - containerPort: 3000
+        envFrom:
+        - configMapRef:
+            name: customers-configmap
+        resources:
+            requests:
+              cpu: 400m
