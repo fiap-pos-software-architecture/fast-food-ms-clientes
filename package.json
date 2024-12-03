@@ -11,7 +11,8 @@
     "coverage": "jest --coverage --coverageReporters=lcov --coverageDirectory=coverage",
     "test:bdd": "cucumber-js",
     "start": "ts-node-dev src/main.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "sonar": "sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN -Dsonar.projectKey=fiap-pos-software-architecture_fast-food-ms-clientes -Dsonar.organization=fiap-pos-software-architecture"
   },
   "keywords": [],
   "author": "",
