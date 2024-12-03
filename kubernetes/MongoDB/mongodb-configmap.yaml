@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: customers-configmap
+  name: mongodb-configmap
 data:
   DB_HOST: mongodb-service
   DB_PORT: "27017"
-  DB_USER: admin
-  DB_PASSWORD: admin
+  DB_USER: admin123
+  DB_PASSWORD: admin123
