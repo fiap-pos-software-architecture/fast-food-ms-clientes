@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: customers
-        image: jennyffernm/app-node-18:latest
+        image: paulopupo/fast-food-ms-customers
         ports:
         - containerPort: 3000
         envFrom:
