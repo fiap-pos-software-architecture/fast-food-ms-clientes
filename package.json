@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage --coverageReporters=lcov --coverageDirectory=coverage",
     "test:bdd": "cucumber-js",
     "start": "ts-node-dev src/main.ts",
     "build": "tsc"
