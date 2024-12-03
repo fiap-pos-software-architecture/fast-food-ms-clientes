@@ -93,7 +93,7 @@ describe('CustomerController', () => {
 
             mockRequest.body = {};
             await customerController.createCustomer(mockRequest as Request, mockResponse as Response);
-            console.log(mockResponse.json)
+         
             expect(mockResponse.status).toHaveBeenCalledWith(500);
             expect(mockResponse.json).toHaveBeenCalledWith({
                 success: false,

@@ -47,7 +47,7 @@ Given('a customer exists in the system', async function () {
         email: 'jane@example.com'
     });
     operationResult = await createCustomerUseCase.execute(testCustomer);
-    console.log(operationResult)
+
     assert.strictEqual(operationResult.success, true);
 });
 
