@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1733270995862" clover="3.2.0">
-  <project timestamp="1733270995862" name="All files">
-    <metrics statements="213" coveredstatements="179" conditionals="58" coveredconditionals="43" methods="48" coveredmethods="46" elements="319" coveredelements="268" complexity="0" loc="213" ncloc="213" packages="4" files="8" classes="8"/>
+<coverage generated="1733278231677" clover="3.2.0">
+  <project timestamp="1733278231677" name="All files">
+    <metrics statements="213" coveredstatements="211" conditionals="58" coveredconditionals="58" methods="48" coveredmethods="48" elements="319" coveredelements="317" complexity="0" loc="213" ncloc="213" packages="4" files="8" classes="8"/>
     <package name="application.use-cases">
-      <metrics statements="112" coveredstatements="84" conditionals="25" coveredconditionals="16" methods="29" coveredmethods="27"/>
+      <metrics statements="112" coveredstatements="110" conditionals="25" coveredconditionals="25" methods="29" coveredmethods="29"/>
       <file name="create-customer.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/application/use-cases/create-customer.ts">
-        <metrics statements="28" coveredstatements="17" conditionals="5" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <metrics statements="28" coveredstatements="28" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
       <file name="delete-customer.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/application/use-cases/delete-customer.ts">
         <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="15" coveredmethods="15"/>
@@ -95,95 +95,95 @@
         <line num="67" count="0" type="stmt"/>
       </file>
       <file name="update-customer.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/application/use-cases/update-customer.ts">
-        <metrics statements="31" coveredstatements="16" conditionals="12" coveredconditionals="6" methods="3" coveredmethods="2"/>
+        <metrics statements="31" coveredstatements="31" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="16" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="16" count="11" type="cond" truecount="3" falsecount="0"/>
         <line num="17" count="2" type="stmt"/>
         <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="23" count="1" type="cond" truecount="1" falsecount="2"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="37" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
+        <line num="23" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="53" count="4" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
       </file>
     </package>
     <package name="domain.entities">
-      <metrics statements="38" coveredstatements="32" conditionals="23" coveredconditionals="17" methods="6" coveredmethods="6"/>
+      <metrics statements="38" coveredstatements="38" conditionals="23" coveredconditionals="23" methods="6" coveredmethods="6"/>
       <file name="customer-operation-response.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/domain/entities/customer-operation-response.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="3" count="5" type="stmt"/>
-        <line num="5" count="59" type="stmt"/>
-        <line num="6" count="59" type="stmt"/>
-        <line num="7" count="59" type="stmt"/>
-        <line num="11" count="34" type="stmt"/>
-        <line num="15" count="25" type="stmt"/>
+        <line num="5" count="74" type="stmt"/>
+        <line num="6" count="74" type="stmt"/>
+        <line num="7" count="74" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="15" count="36" type="stmt"/>
       </file>
       <file name="customer.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/domain/entities/customer.ts">
-        <metrics statements="32" coveredstatements="26" conditionals="23" coveredconditionals="17" methods="3" coveredmethods="3"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="6" count="33" type="stmt"/>
-        <line num="7" count="33" type="stmt"/>
-        <line num="8" count="33" type="stmt"/>
-        <line num="9" count="33" type="stmt"/>
-        <line num="10" count="33" type="stmt"/>
-        <line num="20" count="34" type="stmt"/>
-        <line num="22" count="34" type="cond" truecount="3" falsecount="1"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="26" count="34" type="cond" truecount="4" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="30" count="33" type="cond" truecount="0" falsecount="1"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="36" count="33" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="10" type="cond" truecount="0" falsecount="1"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="10" type="stmt"/>
-        <line num="41" count="23" type="cond" truecount="1" falsecount="1"/>
-        <line num="42" count="23" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="47" count="33" type="cond" truecount="2" falsecount="1"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="51" count="33" type="cond" truecount="2" falsecount="0"/>
-        <line num="53" count="33" type="stmt"/>
-        <line num="57" count="10" type="stmt"/>
-        <line num="58" count="10" type="cond" truecount="0" falsecount="1"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="62" count="10" type="stmt"/>
-        <line num="63" count="10" type="stmt"/>
-        <line num="64" count="10" type="stmt"/>
+        <metrics statements="32" coveredstatements="32" conditionals="23" coveredconditionals="23" methods="3" coveredmethods="3"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="55" type="stmt"/>
+        <line num="7" count="55" type="stmt"/>
+        <line num="8" count="55" type="stmt"/>
+        <line num="9" count="55" type="stmt"/>
+        <line num="10" count="55" type="stmt"/>
+        <line num="20" count="76" type="stmt"/>
+        <line num="22" count="76" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="26" count="72" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="30" count="67" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="36" count="65" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="40" count="17" type="stmt"/>
+        <line num="41" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="42" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="59" type="cond" truecount="3" falsecount="0"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="51" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="55" type="stmt"/>
+        <line num="57" count="21" type="stmt"/>
+        <line num="58" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="62" count="19" type="stmt"/>
+        <line num="63" count="19" type="stmt"/>
+        <line num="64" count="19" type="stmt"/>
       </file>
     </package>
     <package name="domain.exceptions">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="entity-creation-error.ts" path="/Users/paulopupo/dev/fast-food-ms-clientes/src/domain/exceptions/entity-creation-error.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="23" type="stmt"/>
+        <line num="4" count="23" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
       </file>
     </package>
     <package name="infrastructure.adapters.controllers">
