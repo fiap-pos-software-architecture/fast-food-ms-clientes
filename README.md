@@ -82,14 +82,18 @@ The project follows a hexagonal architecture with the following main components:
 - Run unit tests:
   ```
   npm run test
+  or
+  npm run test -- --coverage
   ```
+
+  ![alt text](image-1.png)
+
 
 - Run BDD tests:
   ```
   npm run test:bdd
   ```
-
-  ![alt text](image.png)
+![alt text](image-2.png)
 
 ## API Endpoints
 
