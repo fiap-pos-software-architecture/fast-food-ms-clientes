@@ -89,6 +89,8 @@ The project follows a hexagonal architecture with the following main components:
   npm run test:bdd
   ```
 
+  ![alt text](image.png)
+
 ## API Endpoints
 
 - POST /customers - Create a new customer
